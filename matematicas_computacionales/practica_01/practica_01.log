@@ -1,0 +1,411 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.4)  11 FEB 2021 18:09
+entering extended mode
+**./practica_01.tex
+(practica_01.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cl
+s"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+"
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.s
+ty"
+Package: babel 2020/07/13 3.47 The Babel package
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.d
+ef"
+File: babel.def 2020/07/13 3.47 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+\l@babelnohyphens=\language79
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabe
+l.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count177
+
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.c
+fg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\s
+panish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks15
+\es@quotdepth=\count178
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.s
+ty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.s
+ty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count179
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphi
+cx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphi
+cs.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.s
+ty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\gr
+aphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pd
+ftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfon
+ts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geomet
+ry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.
+sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.s
+ty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count180
+\Gm@cntv=\count181
+\c@Gm@tempcnt=\count182
+\Gm@bindingoffset=\dimen138
+\Gm@wd@mp=\dimen139
+\Gm@odd@mp=\dimen140
+\Gm@even@mp=\dimen141
+\Gm@layoutwidth=\dimen142
+\Gm@layoutheight=\dimen143
+\Gm@layouthoffset=\dimen144
+\Gm@layoutvoffset=\dimen145
+\Gm@dimlist=\toks20
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geomet
+ry.cfg"))
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
+gs.sty"
+\lst@mode=\count183
+\lst@gtempboxa=\box45
+\lst@token=\toks21
+\lst@length=\count184
+\lst@currlwidth=\dimen146
+\lst@column=\count185
+\lst@pos=\count186
+\lst@lostspace=\dimen147
+\lst@width=\dimen148
+\lst@newlines=\count187
+\lst@lineno=\count188
+\lst@maxwidth=\dimen149
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmis
+c.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count189
+\lst@skipnumbers=\count190
+\lst@framebox=\box46
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
+gs.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.
+sty"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\co
+lor.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsn
+am.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlan
+g1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlan
+g2.sty"
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlan
+g3.sty"
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3bac
+kend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count191
+\l__pdf_internal_box=\box47
+) (practica_01.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+)
+\openout1 = `practica_01.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\sup
+p-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen150
+\scratchbox=\box48
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen151
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks23
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\ep
+stopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\inf
+warerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.s
+ty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\
+kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvopt
+ions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcm
+ds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvs
+etkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pd
+ftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count198
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.f
+d"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+
+
+("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.f
+d"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/Angel Moreno/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+<recta0.pdf, id=13, 361.35pt x 361.35pt>
+File: recta0.pdf Graphic file (type pdf)
+<use recta0.pdf>
+Package pdftex.def Info: recta0.pdf  used on input line 87.
+(pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
+
+(practica1.R)
+<recta1.pdf, id=14, 361.35pt x 361.35pt>
+File: recta1.pdf Graphic file (type pdf)
+<use recta1.pdf>
+Package pdftex.def Info: recta1.pdf  used on input line 100.
+(pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
+ [2 <./recta0.pdf>] (practica1.R
+consecutive:
+)
+<parabola1.pdf, id=24, 361.35pt x 361.35pt>
+File: parabola1.pdf Graphic file (type pdf)
+<use parabola1.pdf>
+Package pdftex.def Info: parabola1.pdf  used on input line 122.
+(pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
+ [3 <./recta1.pdf>] (practica1.R
+consecutive:
+)
+<circunferencia.pdf, id=34, 361.35pt x 361.35pt>
+File: circunferencia.pdf Graphic file (type pdf)
+<use circunferencia.pdf>
+Package pdftex.def Info: circunferencia.pdf  used on input line 152.
+(pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
+ [4 <./parabola1.pdf>] [5 <./circunferencia.pdf>] (practica1.R
+consecutive:
+)
+<elipse.pdf, id=52, 361.35pt x 361.35pt>
+File: elipse.pdf Graphic file (type pdf)
+<use elipse.pdf>
+Package pdftex.def Info: elipse.pdf  used on input line 174.
+(pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
+ [6] (practica1.R
+consecutive:
+)
+<hiperbola.pdf, id=56, 361.35pt x 361.35pt>
+File: hiperbola.pdf Graphic file (type pdf)
+<use hiperbola.pdf>
+Package pdftex.def Info: hiperbola.pdf  used on input line 204.
+(pdftex.def)             Requested size: 271.01184pt x 271.01184pt.
+ (practica_01.bbl [7 <./elipse.pdf>] [8 <./hiperbola.pdf>]) [9]
+(practica_01.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+) ) 
+Here is how much of TeX's memory you used:
+ 6320 strings out of 481212
+ 89600 string characters out of 2902657
+ 780032 words of memory out of 3000000
+ 21820 multiletter control sequences out of 15000+200000
+ 545475 words of font info for 70 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,7n,40p,993b,1878s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Angel Moreno/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Angel Moreno/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ang
+el Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pf
+b><C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb><C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><C:/Users/Angel Moreno/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Angel Moreno/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Angel M
+oreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><
+C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmtt8.pfb><C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb>
+Output written on practica_01.pdf (9 pages, 232269 bytes).
+PDF statistics:
+ 116 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
