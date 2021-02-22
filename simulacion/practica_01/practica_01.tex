@@ -1,0 +1,54 @@
+\input{../../preambulo.tex}
+
+\title{Simulación \\ Práctica 1: Método Monte-Carlo}
+\author{Profesor: Ángel Isabel Moreno Saucedo \\ Semestre Febrero - Junio 2021}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducci\'{o}n} \label{sec:intro}
+
+En esta práctica se calculara el valor de una integral definida. En el libro de Simulation de Ross, S.M. \citep{ross1997simulation}, muestra que una de las aplicaciones principales de los números aleatorios es el calculo de integrales. Para esto se utilizara el método de aproximación de integrales. (método \emph{Monte-Carlo})
+
+\section{Método Monte-Carlo} \label{sec:montecarlo}
+
+Para el calculo de la integra utilizaremos lo siguiente
+\begin{equation}
+\int_a^b g(x) dx \approx \sum_{i = 1}^{k} \frac{(b - a)g(a + (b - a)u_i)}{k} \label{eq:aproxmontecarlo}
+\end{equation}
+donde $u_i\sim \mathcal{U}(0, 1)$ y $k$ es los suficientemente grande. La integral
+\begin{equation}
+\int_3^7 \frac{1}{e^x + e^{-x}} dx \label{eq:fequis}
+\end{equation}
+
+es la que aproximaremos a su solución. Los Cuadros (\ref{cod:montearloR}) y (\ref{cod:montecarlopython}) muestran el codigo en R y python, respectivamente, del método Monte-Carlo para aproximar el valor de la integral (\ref{eq:fequis}).
+
+\begin{table}[htpb]
+	\lstinputlisting[language = R]{../../../simulacion/practica_01/practica_01.R}
+	\caption{Código en R del método Monte-Carlo.}
+	\label{cod:montearloR}
+\end{table}
+
+\begin{table}[htpb]
+	\lstinputlisting[language = python]{../../../simulacion/practica_01/practica_01.py}
+	\caption{Código en python del método Monte-Carlo.}
+	\label{cod:montecarlopython}
+\end{table}
+
+\newpage
+El valor que tomares de referencia es el que nos da Wolfram Alfa\cite{wolframalfa} de 0.048834.
+
+\section{Tarea} \label{sec:tarea}
+
+Determina el tamaño de muestra requerido por cada lugar decimal de precisión del estimado obtenido para el integral, comparando con Wolfram Alpha para por lo menos desde uno hasta seis decimales. Escoja tamaños de muestra de los valores aletorios y realice réplicas para validar que cada vez que se ejecute el código nos garantice la precisión deseada. Realice un reporte donde explique la simulación y escriba las conclusiones, añade visualizaciones.
+
+\subsection{Puntos Extra}
+
+Aproxime alguna integral definida en el intervalo [0, $\infty$]. Luego compare el resultado con el que arroja Wolfram Alfa \cite{wolframalfa}. Determine que muestra es la adecuada para aproximar a cinco dígitos con el resultados de Wolfram Alfa.
+
+\bibliography{../../biblio}
+\bibliographystyle{plainnat}
+
+\end{document}
