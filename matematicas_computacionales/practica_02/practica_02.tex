@@ -1,0 +1,67 @@
+\input{../../preambulo.tex}
+
+\title{Matemáticas Computacionales \\ Práctica 2: Estudio de una Base Datos.}
+\author{Profesor: Ángel Isabel Moreno Saucedo \\ Semestre Febrero - Junio 2021}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducci\'{o}n} \label{sec:intro}
+
+
+
+\section{Base de datos} \label{sec:montecarlo}
+
+La base de datos Pima Indian Diabetes se encuentra en la literatura y es la m\'as usada para experimentaciones de algoritmos de aprendizaje m\'aquinas. Esta base datos cuenta con el registro de 768 pacientes femeninos con las 9 características:
+\begin{enumerate}
+	\item N\'umero de embarazos.
+	\item Concentración de glucosa a dos horas de una prueba de tolerancia oral a la glucosa. (mg/dl)
+	\item Presión arterial diastólica. (mm Hg)
+	\item Grosor del pliegue de la piel del tríceps. (mm)
+	\item Concentración  de insulina sérica a dos horas de una prueba de tolerancia oral a la glucosa. (mu U/ml)
+	\item \'Indice de masa corporal. (kg/m$^2$)
+	\item Funci\'on pedigr\'i de diabetes.
+	\item Edad. (años)
+	\item Diabetes.
+\end{enumerate}
+
+Una de las principales dificultades que se enfrenta al momento de trabajar con una base datos, es que en los registros pueden encontrarse datos faltantes en algunas de las caracter\'isticas. La Figura (\ref{fig:missing}) nos enseña como est\'a compuesta la base de datos. Se cuenta con el 91\% de datos registrados teniendo 9\% de registros faltantes, adem\'as las caracter\'isticas de 2-horas de suero insulina y grosor del pliegue de la piel del tr\'iceps, son los que cuentan con el mayor n\'umero de registros faltantes con el 49\% y 30\% respectivamente. Las demas caracter\'isticas cuentan con menos del 5\% de registros faltantes o ninguno.
+
+\begin{figure}[htp]
+	\centering
+		\includegraphics[scale = 0.65]{cantidad_nas}
+	\caption{Gr\'afica de barrras que muestra la cantidad de datos faltantes en cada caracter\'istica.}
+	\label{fig:missing}
+\end{figure}
+
+De las caracter\'iticas donde no hay registros faltantes, la Figura (\ref{fig:pid_edad_nembarazos_pedigri}) muestra unas gr\'aficas de caja bigotes para la edad, n\'umero de embarazos y funci\'on pedigr\'i. La edad de los pacientes Subfigura (\ref{subfig:pid_edad}) se encuentra entre 21 y 81 años con una media de 33 años, y la mitad de los registros se encuentran entre los valores 24 a 41 años, teniendo algunos datos at\'ipicos de entre 70 a 81 años, la Subfigura (\ref{subfig:pid_nembarazos}) muestra la cantidad de embarazos de los registros se encuentra entre 0 y 17 con una media de 4 embarazos, y la mitad de los registros se encuentran entre el rango de 1 a 6 embarazos y de la caracter\'istica funci\'on pedigr\'i de diabetes tiene registros con valores entre 0.078 y 2.42 con una media de 0.4719, la mitad de los registros oscilan entre 0.2437 y 0.6262 esto se observa en la Subfigura (\ref{subfig:pid_pedigri}).
+
+\begin{figure}
+	\centering
+	\subfloat[Edad\label{subfig:pid_edad}]{\includegraphics[scale = .5]{pid_boxplot_edad}} \qquad
+	\subfloat[Num. Embarazos\label{subfig:pid_nembarazos}]{\includegraphics[scale = .5]{pid_boxplot_nembarazos}} \qquad
+	\subfloat[Fun. Pedigrí\label{subfig:pid_pedigri}]{\includegraphics[scale = .5]{pid_boxplot_pedigri}} \qquad
+	\caption{Diagrama de caja bigotes de la edad, n\'umero de embarazos y funci\'on pedigr\'i.}
+	\label{fig:pid_edad_nembarazos_pedigri}
+\end{figure}
+
+\begin{table}[htpb]
+	\lstinputlisting[language = R, firstline = 28, lastline = 50]{../../../matematicascomputacionales/Practica_02/practica_02.R}
+	\caption{Código en python del método Monte-Carlo.}
+	\label{cod:prac2}
+\end{table}
+
+\section{Tarea} \label{sec:tarea}
+
+
+
+\subsection{Puntos Extra}
+
+
+
+\bibliography{../../biblio}
+\bibliographystyle{plainnat}
+
+\end{document}
