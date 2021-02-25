@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.4)  23 FEB 2021 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.4)  24 FEB 2021 19:08
 entering extended mode
 **./practica_02.tex
 (practica_02.tex
@@ -226,27 +226,27 @@ File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count266
 \l__pdf_internal_box=\box47
 ) (practica_02.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 )
 \openout1 = `practica_02.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
 
 ("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\sup
 p-pdf.mkii"
@@ -307,105 +307,45 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
 
 ("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.f
 d"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
 
 ("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.f
 d"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<../../../matematicascomputacionales/Practica_02/cantidad_nas.pdf, id=1, 650.43
-pt x 433.62pt>
-File: ../../../matematicascomputacionales/Practica_02/cantidad_nas.pdf Graphic 
-file (type pdf)
-<use ../../../matematicascomputacionales/Practica_02/cantidad_nas.pdf>
-Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/cantid
-ad_nas.pdf  used on input line 34.
-(pdftex.def)             Requested size: 422.77449pt x 281.84966pt.
-<../../../matematicascomputacionales/Practica_02/pid_boxplot_edad.pdf, id=2, 21
-6.81pt x 433.62pt>
-File: ../../../matematicascomputacionales/Practica_02/pid_boxplot_edad.pdf Grap
-hic file (type pdf)
-<use ../../../matematicascomputacionales/Practica_02/pid_boxplot_edad.pdf>
-Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/pid_bo
-xplot_edad.pdf  used on input line 43.
-(pdftex.def)             Requested size: 108.40472pt x 216.80946pt.
-<../../../matematicascomputacionales/Practica_02/pid_boxplot_nembarazos.pdf, id
-=3, 216.81pt x 433.62pt>
-File: ../../../matematicascomputacionales/Practica_02/pid_boxplot_nembarazos.pd
-f Graphic file (type pdf)
-<use ../../../matematicascomputacionales/Practica_02/pid_boxplot_nembarazos.pdf
->
-Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/pid_bo
-xplot_nembarazos.pdf  used on input line 44.
-(pdftex.def)             Requested size: 108.40472pt x 216.80946pt.
-<../../../matematicascomputacionales/Practica_02/pid_boxplot_pedigri.pdf, id=4,
- 216.81pt x 433.62pt>
-File: ../../../matematicascomputacionales/Practica_02/pid_boxplot_pedigri.pdf G
-raphic file (type pdf)
-<use ../../../matematicascomputacionales/Practica_02/pid_boxplot_pedigri.pdf>
-Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/pid_bo
-xplot_pedigri.pdf  used on input line 45.
-(pdftex.def)             Requested size: 108.40472pt x 216.80946pt.
- [1
-
-{C:/Users/Angel Moreno/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlan
-g1.sty"
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlan
-g2.sty"
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-)
-("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlan
-g3.sty"
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-) (../../../matematicascomputacionales/Practica_02/practica_02.R
-consecutive:
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-34.
-("C:\Users\Angel Moreno\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
-"
-File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)) (practica_02.bbl
+) (practica_02.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-) [2 <../../../matematicascomputacionales/Practica_02/cantidad_nas.pdf>]
-[3 <../../../matematicascomputacionales/Practica_02/pid_boxplot_edad.pdf> <../.
-./../matematicascomputacionales/Practica_02/pid_boxplot_nembarazos.pdf> <../../
-../matematicascomputacionales/Practica_02/pid_boxplot_pedigri.pdf>]
+) [1
+
+{C:/Users/Angel Moreno/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (practica_02.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 ) ) 
 Here is how much of TeX's memory you used:
- 7189 strings out of 481212
- 107968 string characters out of 2902657
- 603798 words of memory out of 3000000
- 22707 multiletter control sequences out of 15000+200000
- 544009 words of font info for 64 fonts, out of 3000000 for 9000
+ 6104 strings out of 481212
+ 94792 string characters out of 2902657
+ 358560 words of memory out of 3000000
+ 21649 multiletter control sequences out of 15000+200000
+ 539197 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,10n,51p,982b,2215s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Angel Moreno\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\tctt0800.pk><C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Angel Moreno/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Angel Moreno/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Angel M
-oreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C
-:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr8.pfb><C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on practica_02.pdf (3 pages, 109337 bytes).
+ 51i,7n,51p,259b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/Angel Moreno/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on practica_02.pdf (1 page, 38164 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
