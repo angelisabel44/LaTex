@@ -4,47 +4,45 @@ The top-level auxiliary file: practica_02.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
-I found no \citation commands---while reading file practica_02.aux
 Database file #1: ../../biblio.bib
-You've used 0 entries,
+You've used 3 entries,
             2773 wiz_defined-function locations,
-            592 strings with 4846 characters,
-and the built_in function-call counts, 33 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 10
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            613 strings with 5387 characters,
+and the built_in function-call counts, 1491 in all, are:
+= -- 138
+> -- 70
+< -- 3
++ -- 24
+- -- 21
+* -- 117
+:= -- 227
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 16
+chr.to.int$ -- 3
+cite$ -- 6
+duplicate$ -- 70
+empty$ -- 129
+format.name$ -- 26
+if$ -- 314
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 3
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 32
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 13
 quote$ -- 0
-skip$ -- 1
+skip$ -- 51
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 72
+swap$ -- 8
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 33
 warning$ -- 0
-while$ -- 0
+while$ -- 16
 width$ -- 0
-write$ -- 7
-(There was 1 error message)
+write$ -- 47

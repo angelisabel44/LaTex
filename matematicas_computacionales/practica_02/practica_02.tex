@@ -1,5 +1,5 @@
 \input{../../preambulo.tex}
-\graphicspath{{../../../matematicascomputacionales/Practica_02/}}
+\graphicspath{{../../../matematicascomputacionales/Practica_02/figuras/}}
 
 \title{Matemáticas Computacionales \\ Práctica 2: Estudio de una Base Datos.}
 \author{Profesor: Ángel Isabel Moreno Saucedo \\ Semestre Febrero - Junio 2021}
@@ -13,7 +13,86 @@
 
 
 
-\section{Base de datos} \label{sec:montecarlo}
+\section{Base de datos: Identificación de vidrio} \label{sec:basededatos}
+
+La base de datos de identificación de tipo de vidrio (Glass) cuenta con 214 observaciones que contiene ejemplos de 7 componentes químicos de vidrio. Esta base de datos es utilizada en la literatura en algoritmos de clasificación de aprendizaje máquina (\emph{machine learning} en ingles) y el estudio de la clasificación de tipos de vidrio fue motivado por investigación criminológica. Las referencias \citep{krawiec2002genetic} y \citep{zhong2007regularized} son algunos trabajos que utilizan esta base de datos.
+
+La base datos Glass tiene los siguientes 10 atributos:
+\begin{enumerate}
+	\item Índice de refracción.
+	\item Na: sodio.
+	\item Mg: magnesio.
+	\item Al: aluminio.
+	\item Si: silicio
+	\item K: potasio.
+	\item Ca: calcio
+	\item Ba: bario.
+	\item Fe: hierro.
+	\item Tipo de vidrio.
+\end{enumerate}
+
+El índice de refracción es un dato numérico, las unidades de medida de los componentes químicos del 2 al 9 es el porcentaje en peso en el óxido. El atributo tipo de vidrio es un número entero del 1 al 7 que clasifica la observación como:
+\begin{enumerate}
+	\item building windows float processed
+	\item building windows non float processed
+	\item vehicle windows float processed
+	\item vehicle windows non float processed
+	\item containers
+	\item tableware
+	\item headlamps.
+\end{enumerate}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale = 0.7]{densidad_RI_Na_Mg.png}
+	\caption{Gráficas de densidad del índice de refracción y los componentes químicos sodio y magnesio.} \label{fig:RINaMg}
+\end{figure}
+
+Los datos de índice de refracción tiene un mínimo de 1.511 y un máximo 1.534, con media y media idénticas con valor de 1.518. El componente químico sodio tiene un porcentaje mínimo de 10.73 y un máximo de 17.38, media de 13.41 y mediana de 13.30 y para el magnesio tiene porcentaje mínimo de 0 y una máximo de 4.49, media de 2.685 y media de 3.480. La Figura (\ref{fig:RINaMg}) muestra gráficas de densidad del indice de vidrio y los componentes sodio y magnesio.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale = 0.7]{densidad_Al_Si_K.png}
+	\caption{Gráficas de densidad de los componentes químicos aluminio, silicio y potasio.} \label{fig:AlSiK}
+\end{figure}
+
+Los datos del componente aluminio tiene sus datos entre [0.29, 3.5] con media de 1.445 y mediana de 1.36. El silicio se encuentra entre [69.81, 75.41] con media de 72.65 y mediana de 72.79. El potasio tiene datos entre [0, 6.21] con media de 0.4971 y mediana de 0.555. La Figura (\ref{fig:AlSiK}) muestra las gráficas de densidad de los componentes aluminio, silicio y potasio.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale = 0.7]{densidad_Ca_Ba_Fe.png}
+	\caption{Gráficas de densidad de los componentes químicos calcio, bario y hierro.} \label{fig:CaBaFe}
+\end{figure}
+
+El químico calcio tiene un dato mínimo de 5.43 y un máximo de 16.19, con media de 8.957 y mediana 8.6. El bario tiene media de 0.175, mediana en el 0 y valores entre [0, 3.15]. El hierro tiene mínimo y máximo en 0 y 0.51 respectivamente, con media de 0.057 y mediana en 0. La Figura (\ref{fig:CaBaFe}) muestra gráficas de densidad del químico calcio, bario y hierro.
+
+El tipo de vidrio tipo 1 (building windows float processed) tiene 70 observaciones que corresponde el 32.71\%, el tipo 2 (building windows non float processed) tiene 76 observaciones que es el 35.51\%, el tipo 3 (vehicle windows float processed) tiene 17 observaciones que es el 7.94, el tipo 4 (vehicle windows non float processed) no tiene observaciones, el tipo 5 (containers) tiene 13 observaciones correspondiente al 6.07\%, el tipo 6 (tableware) tiene 9 observaciones que es el 4.20\% y el tipo 7 (headlamps) tiene 29 observaciones con porcentaje de 13.55\%. La Figura (\ref{fig:tipodevidrio}) muestra estos resultados.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale = 0.85]{barplot_tipodevidrio.png}
+	\caption{} \label{fig:tipodevidrio}
+\end{figure}
+
+La Figura (\ref{fig:correlacion}) muestra la correlaci\'on entre cada par de atributos utilizando el coeficiente de correlaci\'on de Pearson. Seg\'un \citet{benesty} este coeficiente mide correlaci\'on lineal y se encuentra entre el rango de [-1, 1], entre mas cerca este de los extremos se dice que las dos muestras est\'an fuertemente correlacionadas, con la diferencia de que si \'este es fuertemente correlacionado hacia el lado izquierdo (negativamente) indica relaci\'on inversa y viceversa, indica relaci\'on directa cuando es fuertemente correlacionado a la derecha (positivamente).
+
+\begin{figure}
+	\centering
+	\includegraphics[scale = 0.7]{correlacion.png}
+	\caption{} \label{fig:correlacion}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale = 0.8]{scatterplot_RI_Ca.png}
+	\caption{} \label{fig:scatter_RICa}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale = 0.8]{scatterplot_RI_Si.png}
+	\caption{} \label{fig:scatter_RISi}
+\end{figure}
 
 \section{Tarea} \label{sec:tarea}
 

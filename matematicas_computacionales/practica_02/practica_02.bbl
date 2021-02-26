@@ -1,8 +1,28 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Benesty et~al.(2009)Benesty, Chen, Huang, and Cohen]{benesty}
+Jacob Benesty, Jingdong Chen, Yiteng Huang, and Israel Cohen.
+\newblock Pearson correlation coefficient.
+\newblock In \emph{Noise reduction in speech processing}, pages 1--4. Springer,
+  2009.
+
+\bibitem[Krawiec(2002)]{krawiec2002genetic}
+Krzysztof Krawiec.
+\newblock Genetic programming-based construction of features for machine
+  learning and knowledge discovery tasks.
+\newblock \emph{Genetic Programming and Evolvable Machines}, 3\penalty0
+  (4):\penalty0 329--343, 2002.
+
+\bibitem[Zhong and Fukushima(2007)]{zhong2007regularized}
+Ping Zhong and Masao Fukushima.
+\newblock Regularized nonsmooth newton method for multi-class support vector
+  machines.
+\newblock \emph{Optimisation Methods and Software}, 22\penalty0 (1):\penalty0
+  225--236, 2007.
 
 \end{thebibliography}
