@@ -1,7 +1,7 @@
 \input{../../preambulo.tex}
 \graphicspath{{../../../matematicascomputacionales/Practica_02/figuras/}}
 
-\title{Matemáticas Computacionales \\ Práctica 2: Estudio de una Base Datos.}
+\title{Matemáticas Computacionales \\ Práctica 2: Estudio de una Base Datos}
 \author{Profesor: Ángel Isabel Moreno Saucedo \\ Semestre Febrero - Junio 2021}
 \date{}
 
@@ -11,13 +11,14 @@
 
 \section{Introducci\'{o}n} \label{sec:intro}
 
-
+En esta práctica se estudiara un base de datos con la estadística descriptiva básica. Se analizara los atributos, tipos de datos, indicadores básicos de una y de dos variables. Se muestran algunos de los primeros pasos para luego implementar un preprocesamiento de datos para luego utilizarla en alguna experimentación o trabajo a tratar.
 
 \section{Base de datos: Identificación de vidrio} \label{sec:basededatos}
 
-La base de datos de identificación de tipo de vidrio (Glass) cuenta con 214 observaciones que contiene ejemplos de 7 componentes químicos de vidrio. Esta base de datos es utilizada en la literatura en algoritmos de clasificación de aprendizaje máquina (\emph{machine learning} en ingles) y el estudio de la clasificación de tipos de vidrio fue motivado por investigación criminológica. Las referencias \citep{krawiec2002genetic} y \citep{zhong2007regularized} son algunos trabajos que utilizan esta base de datos.
+La base de datos de identificación del tipo de vidrio (Glass) es utilizada en la literatura en algoritmos de clasificación de aprendizaje máquina (\emph{machine learning} en ingles) y el estudio de la clasificación de tipos de vidrio fue motivado por investigación criminológica. Las referencias \citep{krawiec2002genetic} y \citep{zhong2007regularized} son algunos trabajos que utilizan esta base de datos.
 
-La base datos Glass tiene los siguientes 10 atributos:
+\subsection{Descripción del conjunto de datos} \label{subsec:descripcion}
+El dataset Glass cuenta con 214 observaciones que contiene ejemplos de 7 componentes químicos de vidrio. Esta base de datos. La base datos Glass tiene los siguientes 10 atributos:
 \begin{enumerate}
 	\item Índice de refracción.
 	\item Na: sodio.
@@ -42,19 +43,21 @@ El índice de refracción es un dato numérico, las unidades de medida de los co
 	\item headlamps.
 \end{enumerate}
 
+\subsection{Estadística descriptiva de una variable} \label{subsec:estadisticadescriptivauna}
+
 \begin{figure}
 	\centering
 	\includegraphics[scale = 0.7]{densidad_RI_Na_Mg.png}
 	\caption{Gráficas de densidad del índice de refracción y los componentes químicos sodio y magnesio.} \label{fig:RINaMg}
 \end{figure}
 
-Los datos de índice de refracción tiene un mínimo de 1.511 y un máximo 1.534, con media y media idénticas con valor de 1.518. El componente químico sodio tiene un porcentaje mínimo de 10.73 y un máximo de 17.38, media de 13.41 y mediana de 13.30 y para el magnesio tiene porcentaje mínimo de 0 y una máximo de 4.49, media de 2.685 y media de 3.480. La Figura (\ref{fig:RINaMg}) muestra gráficas de densidad del indice de vidrio y los componentes sodio y magnesio.
-
 \begin{figure}
 	\centering
 	\includegraphics[scale = 0.7]{densidad_Al_Si_K.png}
 	\caption{Gráficas de densidad de los componentes químicos aluminio, silicio y potasio.} \label{fig:AlSiK}
 \end{figure}
+
+Los datos de índice de refracción tiene un mínimo de 1.511 y un máximo 1.534, con media y mediana idénticas con valor de 1.518. El componente químico sodio tiene un porcentaje mínimo de 10.73 y un máximo de 17.38, media de 13.41 y mediana de 13.30 y para el magnesio tiene porcentaje mínimo de 0 y una máximo de 4.49, media de 2.685 y media de 3.480. La Figura (\ref{fig:RINaMg}) muestra gráficas de densidad del indice de vidrio y los componentes sodio y magnesio.
 
 Los datos del componente aluminio tiene sus datos entre [0.29, 3.5] con media de 1.445 y mediana de 1.36. El silicio se encuentra entre [69.81, 75.41] con media de 72.65 y mediana de 72.79. El potasio tiene datos entre [0, 6.21] con media de 0.4971 y mediana de 0.555. La Figura (\ref{fig:AlSiK}) muestra las gráficas de densidad de los componentes aluminio, silicio y potasio.
 
@@ -73,6 +76,8 @@ El tipo de vidrio tipo 1 (building windows float processed) tiene 70 observacion
 	\includegraphics[scale = 0.85]{barplot_tipodevidrio.png}
 	\caption{} \label{fig:tipodevidrio}
 \end{figure}
+
+\subsection{Estadística descriptiva de dos variables} \label{subsec:estadisticadescriptivados}
 
 La Figura (\ref{fig:correlacion}) muestra la correlaci\'on entre cada par de atributos utilizando el coeficiente de correlaci\'on de Pearson. Seg\'un \citet{benesty} este coeficiente mide correlaci\'on lineal y se encuentra entre el rango de [-1, 1], entre mas cerca este de los extremos se dice que las dos muestras est\'an fuertemente correlacionadas, con la diferencia de que si \'este es fuertemente correlacionado hacia el lado izquierdo (negativamente) indica relaci\'on inversa y viceversa, indica relaci\'on directa cuando es fuertemente correlacionado a la derecha (positivamente).
 
@@ -96,7 +101,15 @@ La Figura (\ref{fig:correlacion}) muestra la correlaci\'on entre cada par de atr
 
 \section{Tarea} \label{sec:tarea}
 
-\subsection{Puntos Extra}
+Elija una base de datos de los dataset que se encuentran en \texttt{R}, ya sea del dataset que tiene \texttt{R} ya instalado o de la librería \texttt{mlbench}.
+
+Realice un estudio de la base de datos elegida escribiendo un reporte que incluya introducción, base de datos y conclusiones. Dentro de la sección base de datos escriba para que se usa la base de datos y agrega 2 referencia de trabajos que la utilicen, añade subsecciones de descripción del conjunto de datos, estadística de una variable y de dos variables.
+
+En la subsección estadística de una variable elabora una descripción de los atributos (columnas) apoyándote con una de las siguientes gráficas: histograma, gráfica de densidad o gráfica de caja bigotes (boxplot), para variables de tipo clase apóyate con gráfica de barras (barplot) ya sea de porcentaje o de cantidad de observaciones.
+
+En la subsección estadística de dos variables crea la visualización de las correlaciones e identifica los atributos fuertemente correlacionados, luego añade, sí es posible, por lo menos 2 gráficos de dispersión (scatter plot) de los atributos fuertemente correlacionados indicando su relación.
+
+Guarde el archivos .R de las visualizaciones y subirlo de su repositorio de Github.\citep{repositorio}
 
 \bibliography{../../biblio}
 \bibliographystyle{plainnat}

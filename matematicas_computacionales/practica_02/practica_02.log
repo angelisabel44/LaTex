@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.4)  25 FEB 2021 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.4)  26 FEB 2021 02:53
 entering extended mode
 **./practica_02.tex
 (practica_02.tex
@@ -330,7 +330,7 @@ File: ../../../matematicascomputacionales/Practica_02/figuras/densidad_RI_Na_Mg
 <use ../../../matematicascomputacionales/Practica_02/figuras/densidad_RI_Na_Mg.
 png>
 Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/figura
-s/densidad_RI_Na_Mg.png  used on input line 47.
+s/densidad_RI_Na_Mg.png  used on input line 50.
 (pdftex.def)             Requested size: 474.26863pt x 184.43779pt.
 <../../../matematicascomputacionales/Practica_02/figuras/densidad_Al_Si_K.png, 
 id=10, 677.53125pt x 263.48438pt>
@@ -339,21 +339,21 @@ png Graphic file (type png)
 <use ../../../matematicascomputacionales/Practica_02/figuras/densidad_Al_Si_K.p
 ng>
 Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/figura
-s/densidad_Al_Si_K.png  used on input line 55.
-(pdftex.def)             Requested size: 474.26863pt x 184.43779pt.
-<../../../matematicascomputacionales/Practica_02/figuras/densidad_Ca_Ba_Fe.png,
- id=11, 677.53125pt x 263.48438pt>
-File: ../../../matematicascomputacionales/Practica_02/figuras/densidad_Ca_Ba_Fe
-.png Graphic file (type png)
-<use ../../../matematicascomputacionales/Practica_02/figuras/densidad_Ca_Ba_Fe.
-png>
-Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/figura
-s/densidad_Ca_Ba_Fe.png  used on input line 63.
+s/densidad_Al_Si_K.png  used on input line 56.
 (pdftex.def)             Requested size: 474.26863pt x 184.43779pt.
 
 [2 <../../../matematicascomputacionales/Practica_02/figuras/densidad_RI_Na_Mg.p
 ng> <../../../matematicascomputacionales/Practica_02/figuras/densidad_Al_Si_K.p
 ng>]
+<../../../matematicascomputacionales/Practica_02/figuras/densidad_Ca_Ba_Fe.png,
+ id=16, 677.53125pt x 263.48438pt>
+File: ../../../matematicascomputacionales/Practica_02/figuras/densidad_Ca_Ba_Fe
+.png Graphic file (type png)
+<use ../../../matematicascomputacionales/Practica_02/figuras/densidad_Ca_Ba_Fe.
+png>
+Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/figura
+s/densidad_Ca_Ba_Fe.png  used on input line 66.
+(pdftex.def)             Requested size: 474.26863pt x 184.43779pt.
 <../../../matematicascomputacionales/Practica_02/figuras/barplot_tipodevidrio.p
 ng, id=17, 451.6875pt x 338.76563pt>
 File: ../../../matematicascomputacionales/Practica_02/figuras/barplot_tipodevid
@@ -361,7 +361,7 @@ rio.png Graphic file (type png)
 <use ../../../matematicascomputacionales/Practica_02/figuras/barplot_tipodevidr
 io.png>
 Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/figura
-s/barplot_tipodevidrio.png  used on input line 73.
+s/barplot_tipodevidrio.png  used on input line 76.
 (pdftex.def)             Requested size: 383.93617pt x 287.95213pt.
 <../../../matematicascomputacionales/Practica_02/figuras/correlacion.png, id=18
 , 526.96875pt x 526.96875pt>
@@ -369,7 +369,7 @@ File: ../../../matematicascomputacionales/Practica_02/figuras/correlacion.png G
 raphic file (type png)
 <use ../../../matematicascomputacionales/Practica_02/figuras/correlacion.png>
 Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/figura
-s/correlacion.png  used on input line 81.
+s/correlacion.png  used on input line 86.
 (pdftex.def)             Requested size: 368.8756pt x 368.8756pt.
 <../../../matematicascomputacionales/Practica_02/figuras/scatterplot_RI_Ca.png,
  id=19, 376.40625pt x 376.40625pt>
@@ -378,7 +378,7 @@ File: ../../../matematicascomputacionales/Practica_02/figuras/scatterplot_RI_Ca
 <use ../../../matematicascomputacionales/Practica_02/figuras/scatterplot_RI_Ca.
 png>
 Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/figura
-s/scatterplot_RI_Ca.png  used on input line 87.
+s/scatterplot_RI_Ca.png  used on input line 92.
 (pdftex.def)             Requested size: 301.1254pt x 301.1254pt.
 <../../../matematicascomputacionales/Practica_02/figuras/scatterplot_RI_Si.png,
  id=20, 376.40625pt x 376.40625pt>
@@ -387,33 +387,35 @@ File: ../../../matematicascomputacionales/Practica_02/figuras/scatterplot_RI_Si
 <use ../../../matematicascomputacionales/Practica_02/figuras/scatterplot_RI_Si.
 png>
 Package pdftex.def Info: ../../../matematicascomputacionales/Practica_02/figura
-s/scatterplot_RI_Si.png  used on input line 93.
+s/scatterplot_RI_Si.png  used on input line 98.
 (pdftex.def)             Requested size: 301.1254pt x 301.1254pt.
- (practica_02.bbl) [3 <../../../matematicascomputacionales/Practica_02/figuras/
-densidad_Ca_Ba_Fe.png>] [4 <../../../matematicascomputacionales/Practica_02/fig
-uras/barplot_tipodevidrio.png> <../../../matematicascomputacionales/Practica_02
-/figuras/correlacion.png>] [5 <../../../matematicascomputacionales/Practica_02/
-figuras/scatterplot_RI_Ca.png> <../../../matematicascomputacionales/Practica_02
-/figuras/scatterplot_RI_Si.png>] (practica_02.aux
+ [3 <../../../matematicascomputacionales/Practica_02/figuras/densidad_Ca_Ba_Fe.
+png>] [4 <../../../matematicascomputacionales/Practica_02/figuras/barplot_tipod
+evidrio.png> <../../../matematicascomputacionales/Practica_02/figuras/correlaci
+on.png>] [5 <../../../matematicascomputacionales/Practica_02/figuras/scatterplo
+t_RI_Ca.png> <../../../matematicascomputacionales/Practica_02/figuras/scatterpl
+ot_RI_Si.png>] (practica_02.bbl) [6] (practica_02.aux
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 ) ) 
 Here is how much of TeX's memory you used:
- 6203 strings out of 481212
- 98178 string characters out of 2902657
- 362752 words of memory out of 3000000
- 21731 multiletter control sequences out of 15000+200000
- 543891 words of font info for 63 fonts, out of 3000000 for 9000
+ 6212 strings out of 481212
+ 98352 string characters out of 2902657
+ 363813 words of memory out of 3000000
+ 21739 multiletter control sequences out of 15000+200000
+ 544060 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,7n,51p,664b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb><C:/Users/Angel Moreno/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/Angel Moreno/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Angel Moreno/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on practica_02.pdf (5 pages, 102635 bytes).
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Ange
+l Moreno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
+b>
+Output written on practica_02.pdf (6 pages, 111394 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
